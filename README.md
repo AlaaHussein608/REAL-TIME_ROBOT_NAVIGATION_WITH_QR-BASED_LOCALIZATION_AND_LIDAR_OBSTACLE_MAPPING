@@ -31,6 +31,17 @@ The robotic platform is differential-drive and includes the following components
 
 ---
 
+## 📁 Repository Structure
+
+├── Final_Code.py # Main Raspberry Pi SLAM implementation
+├── Final_Code.ino # Main Arduino navigation and control code
+├── calibrate.py # Camera calibration script
+├── take_photo.py # Utility for capturing calibration images
+├── animate.py # LIDAR visualization tool
+└── Report.docx # Comprehensive project documentation
+
+---
+
 ## 🛠️ Hardware Requirements
 
 - Raspberry Pi 4 (2GB+ RAM)  
