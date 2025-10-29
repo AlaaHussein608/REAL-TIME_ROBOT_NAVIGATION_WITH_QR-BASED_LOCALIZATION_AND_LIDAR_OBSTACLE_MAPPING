@@ -105,10 +105,10 @@ The framework implements a **distributed computing** methodology:
 ## 🔄 Operational Pipeline
 
 1. Visual input is acquired through camera frame capture and marker recognition
-2. Spatial positioning algorithms determine robot orientation relative to markers
+2. Spatial positioning algorithms determine robot orientation and position relative to markers
 3. Coordinate information transfers to the control unit via serial interface
-4. The controller merges visual positioning with inertial measurements
-5. Pathfinding mechanisms determine optimal trajectories while avoiding obstructions
+4. The controller merges visual positioning with inertial measurements to determine the configuration
+5. Pathfinding mechanisms determine optimal trajectories while avoiding obstructions (Based on LIDAR data)
 6. Movement instructions are created and implemented by the drive system
 
 ---
@@ -118,11 +118,9 @@ The framework implements a **distributed computing** methodology:
 Essential customizable settings (modify within source code):
 
 - Camera intrinsic properties and lens distortion values
-- Marker dimensional specifications and encoding format
 - Mechanical characteristics (axle length, propulsion wheel dimensions)
 - Navigation control sensitivity settings
 - Filter noise characteristics for data fusion
-- Collision prevention sensitivity ranges
 
 ---
 
@@ -151,8 +149,6 @@ The platform delivers:
 Possible upgrade paths and feature expansions:
 
 - Comprehensive simultaneous localization and mapping
-- Concurrent tracking of multiple reference markers
-- Sophisticated route optimization methods (such as A* or RRT)
 - Artificial intelligence integration for advanced perception
 - Collaborative functionality across multiple robotic units
 - Web-based remote supervision capabilities
