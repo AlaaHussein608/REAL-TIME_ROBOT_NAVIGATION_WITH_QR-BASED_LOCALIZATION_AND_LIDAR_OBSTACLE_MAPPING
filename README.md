@@ -157,7 +157,7 @@ Possible upgrade paths and feature expansions:
 
 ## 📚 Technical Resources
 
-For comprehensive theoretical foundations and practical implementation notes, consult `Report.docx`, containing:
+For comprehensive theoretical foundations and practical implementation notes, consult `Report.pdf`, containing:
 
 - Structural design summary
 - Algorithmic formulations
