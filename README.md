@@ -48,7 +48,7 @@ The robotic platform is differential-drive and includes the following components
 
 ### Raspberry Pi (Python)
 
-pip install opencv-python picamera2 numpy pyserial
+opencv-python picamera2 numpy pyserial
 ### Arduino Libraries
 
 - BasicLinearAlgebra library
